@@ -1,0 +1,93 @@
+/* Login.css */
+body {
+  font-family: "ToyotaRegular", sans-serif;
+  background-image: linear-gradient(to right, #00b4db, #0083b0);
+  place-items: unset;
+  display: block;
+}
+
+.login-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-form {
+  background-color: white;
+  padding: 2.5rem 3rem;
+  border-radius: 16px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+}
+
+.input-group label {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #555;
+}
+
+.input-group input {
+  padding: 0.75rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.input-group input:focus {
+  border-color: #4a00e0;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 0.8rem;
+  background-color: #4a00e0;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.login-btn:hover {
+  background-color: #5f00ff;
+}
+
+.error-msg {
+  background: #ffe0e0;
+  color: #b30000;
+  padding: 0.75rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-size: 14px;
+}
+
+.footer-text {
+  text-align: center;
+  font-size: 14px;
+  color: #888;
+  margin-top: 1rem;
+}
+
+.footer-text span {
+  color: #4a00e0;
+  font-weight: 600;
+  cursor: pointer;
+}
